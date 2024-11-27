@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: SomeCollision
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":194.5898,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-166.0,"y":-29.0},"guid":"53dd5c95-8a1f-4239-b663-603e85e38a04","$version":"A","$type":"Unity.VisualScripting.OnCollisionEnter2D"},{"chainable":false,"parameterNames":["tag"],"member":{"name":"CompareTag","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%tag":{"$content":"","$type":"System.String"}},"position":{"x":165.0,"y":25.0},"guid":"6ca48c96-5840-417a-a98a-e5b8b13436c2","$version":"A","$type":"Unity.VisualScripting.InvokeMember"},{"defaultValues":{},"position":{"x":161.0,"y":-191.0},"guid":"5087822a-9c40-476c-87a4-a7492bea6dac","$version":"A","$type":"Unity.VisualScripting.GraphInput"},{"defaultValues":{},"position":{"x":495.0,"y":40.0},"guid":"0414a1a8-7a48-4e40-90cc-ae9e5d50531e","$version":"A","$type":"Unity.VisualScripting.GraphOutput"},{"defaultValues":{},"position":{"x":358.0,"y":-85.0},"guid":"9de64c4d-0fad-4200-b6ef-613af8b42bca","$version":"A","$type":"Unity.VisualScripting.If"}],"$version":"A"}}'
+    _objectReferences: []
