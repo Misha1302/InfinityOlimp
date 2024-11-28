@@ -1,4 +1,6 @@
 using DialogueEditor;
+using DialogueEditor.Assets.Scripts;
+using DialogueEditor.Assets.Scripts.UI;
 using TMPro;
 using UnityEngine;
 

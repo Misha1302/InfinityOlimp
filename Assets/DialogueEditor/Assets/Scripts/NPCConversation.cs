@@ -1,11 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Runtime.Serialization.Json;
 using UnityEngine;
 using UnityEngine.Serialization;
-using System.Runtime.Serialization;
-using System.Runtime.Serialization.Json;
 
-namespace DialogueEditor
+namespace DialogueEditor.Assets.Scripts
 {
     public enum eSaveVersion
     {

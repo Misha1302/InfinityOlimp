@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace DialogueEditor
+﻿namespace DialogueEditor.Assets.Scripts
 {
     public abstract class SetParamAction
     {

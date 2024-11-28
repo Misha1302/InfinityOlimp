@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using DialogueEditor.Assets.Scripts;
 using UnityEngine;
 using UnityEditor;
 

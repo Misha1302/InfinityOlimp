@@ -1,11 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.Serialization;
+﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
-using System.Runtime.Serialization.Json;
+using UnityEngine;
 
-namespace DialogueEditor
+namespace DialogueEditor.Assets.Scripts
 {
     [DataContract]
     [KnownType(typeof(EditableSpeechConnection))]

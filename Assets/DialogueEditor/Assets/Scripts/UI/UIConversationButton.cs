@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace DialogueEditor
+namespace DialogueEditor.Assets.Scripts.UI
 {
     public class UIConversationButton : MonoBehaviour
     {

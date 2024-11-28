@@ -1,8 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using DialogueEditor.Assets.Scripts.UI;
 using UnityEngine;
 
-namespace DialogueEditor
+namespace DialogueEditor.Example
 {
     public class ExampleInputManager : MonoBehaviour
     {

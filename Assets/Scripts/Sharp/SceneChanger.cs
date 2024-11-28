@@ -5,17 +5,19 @@ namespace Sharp
 {
     public class SceneChanger : MonoBehaviour
     {
-        [SerializeField] private GameObject currentScene;
-        [SerializeField] private GameObject nextScene;
+        public static SceneChanger Instance { get; private set; }
 
-        private void OnCollisionEnter2D(Collision2D other)
+        private void Awake()
         {
-            if (!other.transform.TryGetComponent<PlayerTag>(out _)) return;
-
-            StartCoroutine(ChangeScene());
+            Instance = this;
         }
 
-        private IEnumerator ChangeScene()
+        public void NextScene(GameObject currentScene, GameObject nextScene)
+        {
+            StartCoroutine(ChangeSceneCoroutine(currentScene, nextScene));
+        }
+
+        private IEnumerator ChangeSceneCoroutine(GameObject currentScene, GameObject nextScene)
         {
             var blackScreen = FindAnyObjectByType<BlackScreenTag>(FindObjectsInactive.Include);
             var movement = FindAnyObjectByType<PlayerMovementManager>(FindObjectsInactive.Include);
