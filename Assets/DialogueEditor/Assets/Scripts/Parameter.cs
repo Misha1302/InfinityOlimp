@@ -1,4 +1,4 @@
-﻿namespace DialogueEditor.Assets.Scripts
+﻿namespace DialogueEditor
 {
     public abstract class Parameter
     {

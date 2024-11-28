@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace DialogueEditor.Assets.Scripts.UI
+namespace DialogueEditor
 {
     public class ConversationManager : MonoBehaviour
     {

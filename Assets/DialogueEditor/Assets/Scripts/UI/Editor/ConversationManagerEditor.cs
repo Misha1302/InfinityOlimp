@@ -1,5 +1,4 @@
-﻿using DialogueEditor.Assets.Scripts.UI;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEditor;
 
 namespace DialogueEditor

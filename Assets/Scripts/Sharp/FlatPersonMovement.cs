@@ -15,7 +15,7 @@ namespace Sharp
 
         public void Move(PlayerMovementManager movementManager)
         {
-            movementManager.Rb.linearVelocity = movementManager.Speed;
+            movementManager.Rb.velocity = movementManager.Speed;
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System.Runtime.Serialization;
+using System.Runtime.Serialization.Json;
 
-namespace DialogueEditor.Assets.Scripts
+namespace DialogueEditor
 {
     [DataContract]
     public abstract class EditableParameter

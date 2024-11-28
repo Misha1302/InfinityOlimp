@@ -9,10 +9,3 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 168329
-  packageName: Dialogue Editor
-  packageVersion: 1.1.07
-  assetPath: Assets/DialogueEditor/Assets/Scripts/Editor/NPCConversationEditor.cs
-  uploadId: 542877

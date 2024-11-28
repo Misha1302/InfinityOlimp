@@ -1,11 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 //--------------------------------------
 // Node C# class - User Facing
 //--------------------------------------
 
-namespace DialogueEditor.Assets.Scripts
+namespace DialogueEditor
 {
     public abstract class ConversationNode
     {

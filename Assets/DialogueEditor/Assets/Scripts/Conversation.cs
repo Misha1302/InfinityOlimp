@@ -1,10 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 //--------------------------------------
 // Conversation C# class - User Facing
 //--------------------------------------
 
-namespace DialogueEditor.Assets.Scripts
+namespace DialogueEditor
 {
     public enum eParamStatus
     {

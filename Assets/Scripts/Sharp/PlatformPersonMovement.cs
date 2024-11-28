@@ -15,9 +15,9 @@ namespace Sharp
 
         public void Move(PlayerMovementManager movementManager)
         {
-            movementManager.Rb.linearVelocity = movementManager.Rb.linearVelocity.WithX(movementManager.Speed.x);
+            movementManager.Rb.velocity = movementManager.Rb.velocity.WithX(movementManager.Speed.x);
             if (movementManager.IsJumping)
-                movementManager.Rb.linearVelocity = movementManager.Rb.linearVelocity.WithY(movementManager.jumpSpeed);
+                movementManager.Rb.velocity = movementManager.Rb.velocity.WithY(movementManager.jumpSpeed);
         }
     }
 }

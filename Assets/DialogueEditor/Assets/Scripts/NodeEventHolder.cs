@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace DialogueEditor.Assets.Scripts
+namespace DialogueEditor
 {
     /// <summary>
     /// This class holds all of the values for a node which 

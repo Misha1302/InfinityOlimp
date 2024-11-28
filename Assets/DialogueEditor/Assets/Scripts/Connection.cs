@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 
-namespace DialogueEditor.Assets.Scripts
+namespace DialogueEditor
 {
     public abstract class Connection
     {
