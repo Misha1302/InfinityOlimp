@@ -18,7 +18,7 @@ namespace Sharp
         private IEnumerator ChangeScene()
         {
             var blackScreen = FindAnyObjectByType<BlackScreenTag>(FindObjectsInactive.Include);
-            var movement = FindAnyObjectByType<Movement>(FindObjectsInactive.Include);
+            var movement = FindAnyObjectByType<PlayerMovementManager>(FindObjectsInactive.Include);
 
 
             movement.enabled = false;
